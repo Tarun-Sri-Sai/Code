@@ -1,0 +1,14 @@
+# Editor config
+.vscode/
+
+# Python
+venv/
+__pycache__/
+
+# Java
+*.class
+
+# Binaries
+*.exe
+*.o
+*.out
