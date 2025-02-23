@@ -59,8 +59,8 @@ class LinesOfCode:
             item_path = join(folder, item)
 
             is_last = i == n_items - 1
-            prefix = '└───' if is_last else '├───'
-            next_indent = '    ' if is_last else '│   '
+            prefix = '|-  '
+            next_indent = '    ' if is_last else '|   '
 
             if isdir(item_path):
                 if self._is_match('exclude_dirs', item):
