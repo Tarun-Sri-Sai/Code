@@ -1,5 +1,4 @@
 # Redirecting Microsoft services to loopback address
-# Start of list
 127.0.0.1 data.microsoft.com
 127.0.0.1 msftconnecttest.com
 127.0.0.1 azureedge.net
@@ -10,4 +9,4 @@
 127.0.0.1 scorecardresearch.com
 127.0.0.1 edge.microsoft.com
 127.0.0.1 data.msn.com
-# End of list
+# End of section
